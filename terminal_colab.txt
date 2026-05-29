@@ -1,0 +1,3 @@
+echo "=== GPU ===" && nvidia-smi --query-gpu=name,memory.used,memory.total,utilization.gpu --format=csv && \
+echo -e "\n=== RAM ===" && free -h && \
+echo -e "\n=== DISK ===" && df -h /
